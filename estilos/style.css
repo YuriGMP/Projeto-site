@@ -24,3 +24,15 @@ nav > ul {
     display: flex;
     gap: 2px;
 }
+
+section {
+    padding: 20px;
+
+}
+
+.text-format > textarea {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 20px -6px;
+    outline: none;
+}
