@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <link rel="stylesheet" href="css/style.css">
-    
-    <title>Calculadora</title>
+    <title>Inicio</title>
 </head>
-
 <body>
+    <h1>Loja do ze</h1>
+    <h2>encontre tudo em material escolar</h2>
+
     
-    <div class="calc">
-        <h1>Calculadora</h1>
+    <div id="formulario">
+        
+        <form class="form">
+            <input required type="text" name="nomeP" id="nomeP" placeholder="Nome do produto" >
 
-        <div class="visor"></div>
+            <input required type="number" name="valorP" id="valorP" placeholder="Valor" >
 
-        <div class="teclado">
-            <form>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>0</button>
-            </form>
-        </div>
+            <input type="submit" value="Cadastrar">
+        </form>
         
     </div>
-    
-    <script src="/javascript.js"></script>
-</body>
 
+    <ul id="lista-produtos"></ul>
+    
+    <script type="module" src="javascript.js" ></script>
+</body>
 </html>
